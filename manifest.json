@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	
+	"name": "Очереди Archeage",
+	"version": "1.0",
+	
+	"icons": {
+		"16": "16x16.png"
+	},
+	"permissions": [
+		"http://aaplay.ru/*"
+	],	
+	"browser_action": {
+		"default_title": "Очередь Archeage",
+		"default_icon": "16x16.png",
+		"default_popup": "popup.html"
+	}	
+}
